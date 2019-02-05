@@ -4,7 +4,7 @@
 
 - [x] Repo on luotu
 
-- [ ] Opettajat voivat ladata sen git clone -komennolla
+- [x] Opettajat voivat ladata sen git clone -komennolla
 
 - [x] Siinä on README-tiedosto
 
