@@ -47,3 +47,9 @@
 ## Tehtävä 1.4: Raspbianin kirjoittaminen
 
 - [x] Raspin kortilla ei ole enää sama Raspbian, kuin mitä siihen on ennen kurssin alkua kirjoitettu.
+
+1. Lataa [Raspbian Lite](https://www.raspberrypi.org/downloads/raspbian/)
+
+2. Asenna [Etcher](https://etcher.io)
+
+3. Etcherin avulla kirjoita image kortille
