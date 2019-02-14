@@ -16,20 +16,34 @@
 
 ## Tehtävä 1.2: Raspbian
 
-- [ ] Tiedostojärjestelmä on laajennettu
+1. `ssh pi@raspberrypi.local`
 
-- [ ] Raspi on oikealla aikavyöhykkeellä
+2. `raspi-config`
 
-- [ ] Pi-käyttäjän salasana ei ole oletusmarja
+- [x] Tiedostojärjestelmä on laajennettu
 
-- [ ] `apt-get update` ja `apt-get dist-upgrade` on ajettu
+- Advanced Options –> Expand file system
+
+- [x] Raspi on oikealla aikavyöhykkeellä
+
+- Localisation options –> Change Timezone –> Europe –> Helsinki
+
+- [x] Pi-käyttäjän salasana ei ole oletusmarja
+
+- Change User Password
+
+- [x] `apt-get update` ja `apt-get dist-upgrade` on ajettu
 
 ## Tehtävä 1.3: Etäyhteys
 
-- [ ] Etäyhteys toimii, ratkaisu ja vaiheet yleisellä tasolla selitettynä repossa
+- [x] Etäyhteys toimii, ratkaisu ja vaiheet yleisellä tasolla selitettynä repossa
 
-- [ ] Raspin IP-osoite on kirjoitettu demovastauksiin
+- `touch /Volumes/boot/ssh`
+
+- [x] Raspin IP-osoite on kirjoitettu demovastauksiin
+
+- 192.168.43.145
 
 ## Tehtävä 1.4: Raspbianin kirjoittaminen
 
-- [ ] Raspin kortilla ei ole enää sama Raspbian, kuin mitä siihen on ennen kurssin alkua kirjoitettu.
+- [x] Raspin kortilla ei ole enää sama Raspbian, kuin mitä siihen on ennen kurssin alkua kirjoitettu.
