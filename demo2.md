@@ -3,9 +3,8 @@
 ## Tehtävä 2.1: Vilkuta lediä
 
 - [x] [Video](https://streamable.com/p4sv6)
-
-- [ ] Koodit
-- [ ] Kytkennät
+- [x] Koodit `demo2 –> teht_2-1.py`
+- [x] Kytkennät
 
 ## Tehtävä 2.2: Painike ja PIR-sensori
 
