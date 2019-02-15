@@ -2,7 +2,9 @@
 
 ## Tehtävä 2.1: Vilkuta lediä
 
-- [ ] Video
+- [x] Video
+[Katso video](https://streamable.com/p4sv6)
+
 - [ ] Koodit
 - [ ] Kytkennät
 
