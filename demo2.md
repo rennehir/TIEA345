@@ -6,6 +6,8 @@
 - [x] Koodit `demo2 –> teht_2-1.py`
 - [x] Kytkennät
 
+![Tehtävä 2.1 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/Screenshot%202019-02-15%20at%2015.59.46.png)
+
 ## Tehtävä 2.2: Painike ja PIR-sensori
 
 - [ ] Video
