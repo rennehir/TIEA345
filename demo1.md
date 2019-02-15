@@ -1,6 +1,6 @@
-# Demo 1
+# Demo 1, yht. 12p
 
-## Tehtävä 1.1: Git-repo
+## Tehtävä 1.1: Git-repo, 3p
 
 - [x] Repo on luotu
 
@@ -14,7 +14,7 @@
 
 - [x] Ei isoja kuvia tai videoita (yli 500kB) gitiin, laittakaa vaikka omille jyu-nettisivuillenne/youtube ja linkki demopalautuksiin.
 
-## Tehtävä 1.2: Raspbian
+## Tehtävä 1.2: Raspbian, 4p
 
 1. `ssh pi@raspberrypi.local`
 
@@ -34,7 +34,7 @@
 
 - [x] `apt-get update` ja `apt-get dist-upgrade` on ajettu
 
-## Tehtävä 1.3: Etäyhteys
+## Tehtävä 1.3: Etäyhteys, 3p
 
 - [x] Etäyhteys toimii, ratkaisu ja vaiheet yleisellä tasolla selitettynä repossa
 
@@ -44,7 +44,7 @@
 
 - 192.168.43.145
 
-## Tehtävä 1.4: Raspbianin kirjoittaminen
+## Tehtävä 1.4: Raspbianin kirjoittaminen, 2p
 
 - [x] Raspin kortilla ei ole enää sama Raspbian, kuin mitä siihen on ennen kurssin alkua kirjoitettu.
 
