@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 led = 21
 
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 GPIO.setup(led, GPIO.OUT)
 
 for x in range(5):
