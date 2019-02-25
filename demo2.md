@@ -10,9 +10,11 @@
 
 ## Tehtävä 2.2: Painike ja PIR-sensori
 
-- [ ] Video
-- [ ] Koodit
-- [ ] Kytkennät
+- [x] [Video](https://streamable.com/106lw)
+- [x] Koodit `demo2 –> teht_2-2.py`
+- [x] Kytkennät
+
+![Tehtävä 2.2 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-2.png)
 
 ## Tehtävä 2.3: Liikennevalot
 
