@@ -22,13 +22,15 @@
 - [x] Koodit `demo2 –> teht_2-3.py`
 - [x] Kytkennät
 
-![Tehtävä 2.2 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-3.png)
+![Tehtävä 2.3 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-3.png)
 
 ## Tehtävä 2.4: Signaalivalo jalankulkijoille, 2p
 
 - [ ] Video
 - [ ] Koodit
-- [ ] Kytkennät
+- [x] Kytkennät
+
+![Tehtävä 2.4 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-4.png)
 
 ## Tehtävä 2.5: Liiketunnistin, 1p
 
