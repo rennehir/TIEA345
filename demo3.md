@@ -16,10 +16,16 @@ Temperature: 22.0 C    Humidity: 70.0 %
 
 ### Tehtävä 3.2: Sensorin dataa Google Sheetsiin, 2p
 
-- [ ] Selitys, kuinka JSON päätyi raspille
-- [ ] `client_email` -kenttä
-- [ ] Koodit
-- [ ] Driven taulukko jaettu opettajaryhmälle tiea345kevat2019@googlegroups.com
+- [x] `client_email` -kenttä, `raspberry-pi@tiea345-demo3-232813.iam.gserviceaccount.com`
+- [x] Koodit `demo3 –> teht_3-2.py`
+- [x] Driven taulukko jaettu opettajaryhmälle tiea345kevat2019@googlegroups.com
+- [x] Selitys, kuinka JSON päätyi raspille
+
+1. Kirjaudu Google Developers -konsoliin
+2. Luo projekti
+3. Lue Service Account
+4. Lataa Service Account Key JSON-muodossa
+5. Siirrä json-tiedosto raspille käyttämällä `scp`-komentoa
 
 ## Kameran tehtävät
 
