@@ -20,7 +20,7 @@ while True:
 
   if humidity is not None and temperature is not None:
     now = datetime.datetime.now()
-    sht1.append_row([now, temperature, humidity])
+    sht1.append_row([now.isoformat(), temperature, humidity])
   else:
     print("Failed to get reading. Try again!")
 
