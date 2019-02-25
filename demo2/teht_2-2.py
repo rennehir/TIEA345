@@ -1,3 +1,4 @@
+import threading
 import time
 import RPi.GPIO as GPIO
 
@@ -16,10 +17,9 @@ while True:
   button_state = GPIO.input(button)
   pir_state = GPIO.input(pir)
 
-  print(pir_state)
-
   if button_state == False:
     print('Button pressed')
+    print(pir_state)
     time.sleep(0.2)
     GPIO.output(led, 1)
   else :
