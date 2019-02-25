@@ -26,8 +26,8 @@
 
 ## Tehtävä 2.4: Signaalivalo jalankulkijoille, 2p
 
-- [ ] Video
-- [ ] Koodit
+- [x] [Video](https://streamable.com/ildzi)
+- [x] Koodit `demo2 –> teht_2-4.py`
 - [x] Kytkennät
 
 ![Tehtävä 2.4 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-4.png)
