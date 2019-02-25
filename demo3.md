@@ -31,9 +31,13 @@ Temperature: 22.0 C    Humidity: 70.0 %
 
 ### Tehtävä 3.3: Raspin kameralla kuva ja videota, 1p
 
-- [ ] Kuva
-- [ ] Linkki videoon
-- [ ] Raportti, miten resoluutiota pienennettiin
+- [x] Kuva
+- [x] [Linkki videoon](https://streamable.com/93u2n)
+- [x] Raportti, miten resoluutiota pienennettiin
+
+```python
+camera.resolution = (720, 540)
+```
 
 ### Tehtävä 3.4: Liikkeentunnistava kamera, 2p
 
