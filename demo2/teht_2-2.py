@@ -4,7 +4,7 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 button = 19
-GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PDU_UP)
+GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 led = 21
 GPIO.setup(led, GPIO.OUT)
