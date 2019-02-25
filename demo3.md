@@ -41,7 +41,7 @@ camera.resolution = (720, 540)
 
 ### Tehtävä 3.4: Liikkeentunnistava kamera, 2p
 
-- [ ] Koodit
+- [x] Koodit `demo3 –> teht_3-4.py`
 
 ### Tehtävä 3.5: Aseta kamera ottamaan kuva aina tasatunnein, 2p
 
