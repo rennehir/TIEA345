@@ -74,8 +74,6 @@ def deny_pedestrians_crossing():
   GPIO.output(car_green, 1)
 
 def run_traffic_lights():
-  set_pedestrian_signal()
-  time.sleep(1.5)
   allow_pedestrians_crossing()
   time.sleep(5)
   deny_pedestrians_crossing()
@@ -84,6 +82,8 @@ while True:
   button_state = GPIO.input(button)
 
   if button_state == False:
+    set_pedestrian_signal()
+    time.sleep(1.5)
     motion_sensor_state = GPIO.input(motion_sensor)
     print('Motion sensor state', motion_sensor_state)
     time.sleep(0.2)
