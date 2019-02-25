@@ -15,6 +15,12 @@ GPIO.setup(car_yellow, GPIO.OUT)
 car_green = 21
 GPIO.setup(car_green, GPIO.OUT)
 
+pedestrian_red = 23
+GPIO.setup(pedestrian_red, GPIO.OUT)
+
+pedestrian_green = 24
+GPIO.setup(pedestrian_green, GPIO.OUT)
+
 while True:
   button_state = GPIO.input(button)
 
