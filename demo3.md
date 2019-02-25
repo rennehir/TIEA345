@@ -4,8 +4,15 @@
 
 ### Tehtävä 3.1: Sensori toimintakuntoon ja dataa ruutuun,2p
 
-- [ ] Koodit
-- [ ] Rivi näyttöön kirjoitettua dataa
+- [x] Koodit `demo3 –> teht_3-1.py`
+- [x] Rivi näyttöön kirjoitettua dataa
+
+```bash
+Temperature: 22.0 C    Humidity: 17.0 %
+Temperature: 22.0 C    Humidity: 17.0 %
+Temperature: 22.0 C    Humidity: 42.0 %
+Temperature: 22.0 C    Humidity: 70.0 %
+```
 
 ### Tehtävä 3.2: Sensorin dataa Google Sheetsiin, 2p
 
