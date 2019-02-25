@@ -21,21 +21,22 @@ GPIO.setup(pedestrian_red, GPIO.OUT)
 pedestrian_green = 24
 GPIO.setup(pedestrian_green, GPIO.OUT)
 
+# Initial light setup
+GPIO.output(car_red, 0)
+GPIO.output(car_yellow, 0)
+GPIO.output(car_green, 1)
+GPIO.output(pedestrian_red, 1)
+GPIO.output(pedestrian_green, 0)
+
+def allow_pedestrians_crossing():
+  print('Pedestrians')
+
 while True:
   button_state = GPIO.input(button)
 
   if button_state == False:
-    GPIO.output(car_red, 1)
-    GPIO.output(car_yellow, 1)
-    GPIO.output(car_green, 1)
-    GPIO.output(pedestrian_green, 1)
-    GPIO.output(pedestrian_red, 1)
     time.sleep(0.2)
-  else :
-    GPIO.output(car_red, 0)
-    GPIO.output(car_yellow, 0)
-    GPIO.output(car_green, 0)
-    GPIO.output(pedestrian_green, 0)
-    GPIO.output(pedestrian_red, 0)
+    allow_pedestrians_crossing()
+    time.sleep(0.2)
 
 GPIO.cleanup()
