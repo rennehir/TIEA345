@@ -18,8 +18,8 @@
 
 ## Tehtävä 2.3: Liikennevalot, 4p
 
-- [ ] Video
-- [ ] Koodit
+- [x] [Video](https://streamable.com/qh5rv)
+- [x] Koodit `demo2 –> teht_2-3.py`
 - [x] Kytkennät
 
 ![Tehtävä 2.2 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-3.png)
