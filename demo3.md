@@ -45,8 +45,8 @@ camera.resolution = (720, 540)
 
 ### Tehtävä 3.5: Aseta kamera ottamaan kuva aina tasatunnein, 2p
 
-- [ ] Koodit
-- [ ] Komennot ja config-tiedostojen muutokset
+- [x] Koodit
+- [x] Komennot ja config-tiedostojen muutokset
 
 ```bash
 sudo apt-get install gnome-schedule
