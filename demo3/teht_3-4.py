@@ -5,6 +5,8 @@ import RPi.GPIO as GPIO
 
 camera = PiCamera()
 
+GPIO.setmode(GPIO.BCM)
+
 motion_sensor = 18
 GPIO.setup(motion_sensor, GPIO.IN)
 
