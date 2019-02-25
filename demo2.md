@@ -34,6 +34,8 @@
 
 ## Tehtävä 2.5: Liiketunnistin, 1p
 
-- [ ] Video
-- [ ] Koodit
-- [ ] Kytkennät
+- [x] [Video](https://streamable.com/ekvpg)
+- [x] Koodit `demo2 –> teht_2-5.py`
+- [x] Kytkennät
+
+![Tehtävä 2.5 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-5.png)
