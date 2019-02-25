@@ -9,9 +9,16 @@ GPIO.setup(button, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 led = 21
 GPIO.setup(led, GPIO.OUT)
 
+pir = 18
+GPIO.setup(pir, GPIO.IN)
+
 while True:
-  input_state = GPIO.input(button)
-  if input_state == False:
+  button_state = GPIO.input(button)
+  pir_state = GPIO.input(pir)
+
+  print(pir_state)
+
+  if button_state == False:
     print('Button pressed')
     time.sleep(0.2)
     GPIO.output(led, 1)
