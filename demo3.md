@@ -10,9 +10,7 @@
 ### Tehtävä 3.2: Sensorin dataa Google Sheetsiin, 2p
 
 - [ ] Selitys, kuinka JSON päätyi raspille
-
-– [ ] `client_email` -kenttä
-
+- [ ] `client_email` -kenttä
 - [ ] Koodit
 - [ ] Driven taulukko jaettu opettajaryhmälle tiea345kevat2019@googlegroups.com
 
