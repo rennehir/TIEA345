@@ -28,10 +28,14 @@ while True:
     GPIO.output(car_red, 1)
     GPIO.output(car_yellow, 1)
     GPIO.output(car_green, 1)
+    GPIO.output(pedestrian_green, 1)
+    GPIO.output(pedestrian_red, 1)
     time.sleep(0.2)
   else :
     GPIO.output(car_red, 0)
     GPIO.output(car_yellow, 0)
     GPIO.output(car_green, 0)
+    GPIO.output(pedestrian_green, 0)
+    GPIO.output(pedestrian_red, 0)
 
 GPIO.cleanup()
