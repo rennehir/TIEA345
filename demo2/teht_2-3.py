@@ -18,7 +18,7 @@ GPIO.setup(car_green, GPIO.OUT)
 while True:
   button_state = GPIO.input(button)
 
-  if button_state == True:
+  if button_state == False:
     GPIO.output(car_red, 1)
     GPIO.output(car_yellow, 1)
     GPIO.output(car_green, 1)
