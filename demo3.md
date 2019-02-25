@@ -46,8 +46,13 @@ camera.resolution = (720, 540)
 ### Tehtävä 3.5: Aseta kamera ottamaan kuva aina tasatunnein, 2p
 
 - [ ] Koodit
-- [ ] Komennot
-- [ ] Config-tiedostojen muutokset
+- [ ] Komennot ja config-tiedostojen muutokset
+
+```bash
+sudo apt-get install gnome-schedule
+crontab -e
+0 * * * * python3 /home/pi/code/TIEA345/demo3/teht_3-5.py
+```
 
 ### Tehtävä 3.6: Toteuta web-palvelin, josta voi hakea uusimman tallennetun kuvan, 1p
 
