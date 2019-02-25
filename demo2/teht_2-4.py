@@ -49,7 +49,7 @@ def blink_pedestrian_green():
   GPIO.output(pedestrian_green, 0)
 
 def allow_pedestrians_crossing():
-  GPIO.output(pedestrian_signal, 1)
+  GPIO.output(pedestrian_signal, 0)
   GPIO.output(car_green, 0)
   GPIO.output(car_yellow, 1)
   time.sleep(2)
