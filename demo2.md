@@ -20,7 +20,9 @@
 
 - [ ] Video
 - [ ] Koodit
-- [ ] Kytkennät
+- [x] Kytkennät
+
+![Tehtävä 2.2 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-3.png)
 
 ## Tehtävä 2.4: Signaalivalo jalankulkijoille, 2p
 
