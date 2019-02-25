@@ -1,6 +1,6 @@
-# Demo 2
+# Demo 2, yht. 10p
 
-## Tehtävä 2.1: Vilkuta lediä
+## Tehtävä 2.1: Vilkuta lediä, 1p
 
 - [x] [Video](https://streamable.com/p4sv6)
 - [x] Koodit `demo2 –> teht_2-1.py`
@@ -8,7 +8,7 @@
 
 ![Tehtävä 2.1 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/Screenshot%202019-02-15%20at%2015.59.46.png)
 
-## Tehtävä 2.2: Painike ja PIR-sensori
+## Tehtävä 2.2: Painike ja PIR-sensori, 2p
 
 - [x] [Video](https://streamable.com/106lw)
 - [x] Koodit `demo2 –> teht_2-2.py`
@@ -16,19 +16,19 @@
 
 ![Tehtävä 2.2 kytkennät](https://github.com/rennehir/TIEA345/raw/master/images/teht_2-2.png)
 
-## Tehtävä 2.3: Liikennevalot
+## Tehtävä 2.3: Liikennevalot, 4p
 
 - [ ] Video
 - [ ] Koodit
 - [ ] Kytkennät
 
-## Tehtävä 2.4: Signaalivalo jalankulkijoille
+## Tehtävä 2.4: Signaalivalo jalankulkijoille, 2p
 
 - [ ] Video
 - [ ] Koodit
 - [ ] Kytkennät
 
-## Tehtävä 2.5: Liiketunnistin
+## Tehtävä 2.5: Liiketunnistin, 1p
 
 - [ ] Video
 - [ ] Koodit
