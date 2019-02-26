@@ -33,8 +33,9 @@ app.get('/latestImage', (req, res) => {
         if (err) { throw err }
 
         const latestImage = getNewestFile(files, imagePath)
+	console.log(latestImage, typeof latestImage)
 
-        res.sendFile(latestImage)
+        res.sendFile(imagePath + '/' + latestImage)
     })
 })
 
