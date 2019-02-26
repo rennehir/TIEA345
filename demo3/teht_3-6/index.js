@@ -22,6 +22,12 @@ const getNewestFile = (files, path) => {
     return (out.length>0) ? out[0].file : ''
 }
 
+app.get('/', (req, res) => {
+    res.send({
+        hello: 'world'
+    })
+})
+
 app.get('/latestImage', (req, res) => {
     fs.readdir(imagePath, function(err, files) {
         if (err) { throw err }
