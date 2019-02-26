@@ -56,6 +56,11 @@ crontab -e
 
 ### Tehtävä 3.6: Toteuta web-palvelin, josta voi hakea uusimman tallennetun kuvan, 1p
 
-- [ ] Selostus
-- [ ] Komennot
-- [ ] Koodit
+- [x] Koodit `demo3 –> teht_3-6`
+- [x] Selostus
+- [x] Komennot
+
+1. Asensin Noden
+2. Tein yksinkertaisen Express-applikaation, joka hakee tallennettujen kuvien kansiosta uusimman kuvan ja lähettää sen REST-rajapinnan kautta
+3. `npm install && node index.js`
+4. `GET http://{raspberrypi_IP}:3000/latestImage`
