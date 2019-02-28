@@ -9,14 +9,14 @@
 #include <stdio.h>
 #include <pigpio.h>
 
-int carRed = 16;
-int carYellow = 20;
-int carGreen = 21;
-int pedestrianSignal = 22;
-int pedestrianRed = 23;
-int pedestrianGreen = 24;
+int carRed = 17;
+int carYellow = 27;
+int carGreen = 22;
+int pedestrianSignal = 13;
+int pedestrianRed = 19;
+int pedestrianGreen = 26;
 
-int pedestrianButton = 19;
+int pedestrianButton = 6;
 int motionSensor = 18;
 
 void setPedestrianSignal(void)
