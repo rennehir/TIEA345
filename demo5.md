@@ -2,7 +2,7 @@
 
 ## Teht 5.1: signaalien luku ja kirjoitus, 2p
 
-- [ ] Koodi
+- [x] Koodi `demo5 –> teht_5-1.c`
 
 ## Teht 5.2: liikennevalot, max 4p
 
