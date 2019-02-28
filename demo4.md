@@ -1,4 +1,4 @@
-# Demo4: Motion ja OpenCV
+# Demo4: Motion ja OpenCV, yht. 1/10p
 
 ## Motion
 
