@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
     }
 
     /* Set GPIO modes */
-    gpioSetMode(18, PI_OUTPUT): // LED red
-    gpioSetMode(23, PI_OUTPUT): // LED green
+    gpioSetMode(18, PI_OUTPUT); // LED red
+    gpioSetMode(23, PI_OUTPUT); // LED green
     gpioSetMode(21, PI_INPUT); // Button
 
     start = time_time();
@@ -33,7 +33,7 @@ int main(int argc, char *argv[])
         gpioWrite(18, 0); // LED red off
         time_sleep(0.5);
 
-        gpioWrite(21, gpioRead(23));
+        gpioWrite(23, gpioRead(21));
     }
 
     gpioTerminate();
