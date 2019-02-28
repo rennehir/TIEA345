@@ -108,14 +108,14 @@ int main(int argc, char *argv[])
     {
         int buttonState = gpioRead(pedestrianButton);
 
-        if (buttonState)
+        if (buttonState == 1)
         {
             setPedestrianSignal();
             time_sleep(1);
 
             int motionState = gpioRead(motionSensor);
 
-            if (!motionSensor)
+            if (motionState == 0)
             {
                 runTrafficLights();
             }
