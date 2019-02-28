@@ -1,4 +1,4 @@
-# Demo 5
+# Demo 5, yht. 6/10p
 
 ## Teht 5.1: signaalien luku ja kirjoitus, 2p
 
@@ -6,9 +6,9 @@
 
 ## Teht 5.2: liikennevalot, max 4p
 
-- [ ] Painikkeella, 3p
-- [ ] Liiketunnistimella, 4p
-- [ ] Koodit
+- [x] Painikkeella, 3p
+- [x] Liiketunnistimella, 4p
+- [x] Koodit `demo5 –> teht_5-2.c`
 
 ## Teht 5.3: Redis, 2p
 
