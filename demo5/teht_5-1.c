@@ -1,5 +1,5 @@
 /*
-    pulse.c
+    teht_5-1.c
 
     gcc -o teht1 teht_5-1.c -lpigpio -lrt -lpthread
 
