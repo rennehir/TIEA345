@@ -14,10 +14,65 @@ int carYellow = 20;
 int carGreen = 21;
 int pedestrianSignal = 22;
 int pedestrianRed = 23;
-int pedetrianGreen = 24;
+int pedestrianGreen = 24;
 
 int pedestrianButton = 19;
 int motionSensor = 18;
+
+void setPedestrianSignal(void)
+{
+    gpioWrite(pedestrianSignal, 1);
+    return;
+}
+
+void blinkPedestrianGreen(void)
+{
+    gpioWrite(pedestrianGreen, 0);
+    time_sleep(0.2);
+    gpioWrite(pedestrianGreen, 1);
+    time_sleep(0.2);
+    gpioWrite(pedestrianGreen, 0);
+    time_sleep(0.2);
+    gpioWrite(pedestrianGreen, 1);
+    time_sleep(0.2);
+    gpioWrite(pedestrianGreen, 0);
+    return;
+}
+
+void allowPedestriansCrossing(void)
+{
+    gpioWrite(pedestrianSignal, 0);
+    gpioWrite(carGreen, 0);
+    gpioWrite(carYellow, 1);
+    time_sleep(1.5);
+    gpioWrite(carYellow, 0);
+    gpioWrite(carRed, 1);
+    time_sleep(1.5);
+    gpioWrite(pedestrianRed, 0);
+    gpioWrite(pedestrianGreen, 1);
+    return;
+}
+
+void denyPedestriansCrossing(void)
+{
+    blinkPedestrianGreen();
+    gpioWrite(pedetrianGreen, 0);
+    gpioWrite(pedestrianRed, 1);
+    time_sleep(1.5);
+    gpioWrite(carYellow, 1);
+    time_sleep(1);
+    gpioWrite(carRed, 0);
+    gpioWrite(carYellow, 0);
+    gpioWrite(carGreen, 0);
+    return;
+}
+
+void runTrafficLights(void)
+{
+    allowPedestriansCrossing();
+    time_sleep(5);
+    denyPedestriansCrossing();
+}
 
 int main(int argc, char *argv[])
 {
@@ -75,59 +130,4 @@ int main(int argc, char *argv[])
     gpioTerminate();
 
     return 0;
-}
-
-void setPedestrianSignal(void)
-{
-    gpioWrite(pedestrianSignal, 1);
-    return;
-}
-
-void blinkPedestrianGreen(void)
-{
-    gpioWrite(pedestrianGreen, 0);
-    time_sleep(0.2);
-    gpioWrite(pedestrianGreen, 1);
-    time_sleep(0.2);
-    gpioWrite(pedestrianGreen, 0);
-    time_sleep(0.2);
-    gpioWrite(pedestrianGreen, 1);
-    time_sleep(0.2);
-    gpioWrite(pedestrianGreen, 0);
-    return;
-}
-
-void allowPedestriansCrossing(void)
-{
-    gpioWrite(pedestrianSignal, 0);
-    gpioWrite(carGreen, 0);
-    gpioWrite(carYellow, 1);
-    time_sleep(1.5);
-    gpioWrite(carYellow, 0);
-    gpioWrite(carRed, 1);
-    time_sleep(1.5);
-    gpioWrite(pedestrianRed, 0);
-    gpioWrite(pedestrianGreen, 1);
-    return;
-}
-
-void denyPedestriansCrossing(void)
-{
-    blinkPedestrianGreen();
-    gpioWrite(pedetrianGreen, 0);
-    gpioWrite(pedestrianRed, 1);
-    time_sleep(1.5);
-    gpioWrite(carYellow, 1);
-    time_sleep(1);
-    gpioWrite(carRed, 0);
-    gpioWrite(carYellow, 0);
-    gpioWrite(carGreen, 0);
-    return;
-}
-
-void runTrafficLights(void)
-{
-    allowPedestriansCrossing();
-    time_sleep(5);
-    denyPedestriansCrossing();
 }
