@@ -56,7 +56,7 @@ void allowPedestriansCrossing(void)
 void denyPedestriansCrossing(void)
 {
     blinkPedestrianGreen();
-    gpioWrite(pedetrianGreen, 0);
+    gpioWrite(pedestrianGreen, 0);
     gpioWrite(pedestrianRed, 1);
     time_sleep(1.5);
     gpioWrite(carYellow, 1);
