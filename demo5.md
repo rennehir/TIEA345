@@ -1,4 +1,4 @@
-# Demo 5, yht. 6/10p
+# Demo 5, yht. 8/10p
 
 ## Teht 5.1: signaalien luku ja kirjoitus, 2p
 
@@ -12,7 +12,7 @@
 
 ## Teht 5.3: Redis, 2p
 
-- [ ] Koodit
+- [x] Koodit `demo5 –> redis`
 
 ## Teht 5.4: MQTT, 2p
 
