@@ -9,7 +9,8 @@ def redis_check():
 
         while True:
             message = p.get_message()
-            print(message)
+            if message:
+                print(message['data'])
 
     except Exception as e:
         print(str(e))

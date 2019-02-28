@@ -8,7 +8,7 @@ def publish_random_data():
         r = redis.StrictRedis(host='localhost', port=6379)
 
         while True:
-            r.publish('random_data', ''.join(random.choices(string.ascii_uppercase + string.digits, k=12)))
+            r.publish('random_data', ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(12)))
             time.sleep(5)
 
     except Exception as e:
