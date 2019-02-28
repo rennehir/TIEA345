@@ -16,7 +16,7 @@ int pedestrianSignal = 13;
 int pedestrianRed = 19;
 int pedestrianGreen = 26;
 
-int pedestrianButton = 6;
+int pedestrianButton = 5;
 int motionSensor = 18;
 
 void setPedestrianSignal(void)
@@ -63,7 +63,7 @@ void denyPedestriansCrossing(void)
     time_sleep(1);
     gpioWrite(carRed, 0);
     gpioWrite(carYellow, 0);
-    gpioWrite(carGreen, 0);
+    gpioWrite(carGreen, 1);
     return;
 }
 
@@ -106,9 +106,7 @@ int main(int argc, char *argv[])
 
     while((time_time() - start) < 120.0)
     {
-        int buttonState = gpioRead(pedestrianButton);
-
-        if (buttonState == 1)
+        if (gpioRead(pedestrianButton) == 0)
         {
             setPedestrianSignal();
             time_sleep(1);
