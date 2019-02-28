@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     gpioSetMode(led, PI_OUTPUT); // LED
     gpioSetMode(pir, PI_INPUT); // PIR sensor
 
-    start = time_time();
+    double start = time_time();
 
     while((time_time() - start) < 60.0)
     {
