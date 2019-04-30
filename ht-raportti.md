@@ -87,6 +87,8 @@ app.listen(PORT, () => {
 ssh -R dumppitv:80:localhost:3000 serveo.net
 ```
 
+Ylläoleva scripti välittää localhostista portin 3000 urliin https://dumppitv.serveo.net, jonka kautta APIa pystytään kutsumaan.
+
 ### 4. Webhook sisällönhallintajärjestelmästä
 
 ![Webhook DatoCMS:ssä](https://github.com/rennehir/TIEA345/raw/master/images/webhook.png)
